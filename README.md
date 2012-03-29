@@ -14,12 +14,19 @@ In order to acheive these goals, Rebar-CI uses the very opinionated build tool, 
 Let's get started
 -----------------
 
+Prereqs
+
+* Erlang R14B4 or higher
+* make
+* more to come...
+
 Start by cloning the repository
 	
 	git clone git://github.com/nujii/rebar-ci.git
 
-Make sure you have Erlang installed
+Now build it
 
+	cd rebar-ci
 	make && make rel
 
 Now start it!
