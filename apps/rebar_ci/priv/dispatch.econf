@@ -1,0 +1,7 @@
+{["ci"], rebar_ci_wm_index, []}.
+{["ci", "projects"], rebar_ci_wm_projects, []}.
+{["ci", "projects", project], rebar_ci_wm_project, []}.
+{["ci", "projects", project, "builds"], rebar_ci_wm_builds, []}.
+{["ci", "projects", project, "builds", build], rebar_ci_wm_build, []}.
+{["ci", "projects", project, "builds", build, "tests"], rebar_ci_wm_tests, []}.
+{["ci", "projects", project, "builds", build, "coverage"], rebar_ci_wm_tests, []}.

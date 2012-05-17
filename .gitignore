@@ -1,0 +1,8 @@
+*.beam
+.eunit
+deps/*
+apps/rebar_ci/ebin
+*~
+dev/*
+doc/*
+rel/rebar_ci
